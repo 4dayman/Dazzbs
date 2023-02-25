@@ -7,7 +7,7 @@
     <back-to-main page="Косметологія"/>
     <h2>Косметологія</h2>
     <div class="hair_desc">
-      <h5>Догляд за ...</h5>
+      <h5>Ідеальне рішення для тих, хто хоче виглядати стильно</h5>
       <div class="hair_desc_img">
           <img src="@/assets/mainSlider/img_4.jpg" alt="">
       </div>
