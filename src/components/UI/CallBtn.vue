@@ -38,8 +38,8 @@ content: '';
   border-radius: 1000px;
   min-width: calc(60px + 12px);
   min-height: calc(60px + 12px);
-  border: 6px solid #cfb53b;
-  box-shadow: 0 0 60px #cfb53b;
+  border: 6px solid #AA957c;
+  box-shadow: 0 0 60px #AA957c;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,7 +49,7 @@ content: '';
 }
 
 .button:hover, .button:focus {
-  color: #cfb53b;
+  color: #AA957c;
   transform: translateY(-6px);
 }
 
