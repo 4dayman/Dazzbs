@@ -10,7 +10,7 @@
         <div class="link_main_blok">
             <router-link class="links_main" to="/">Головна</router-link>
             <router-link class="links_main" to="/price">Ціни</router-link>
-            <router-link class="links_main" to="/">Послуги</router-link>
+            <router-link class="links_main" to="/service">Послуги</router-link>
             <a href="https://www.google.com/search?q=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&rlz=1C1IXYC_ruUA953UA956&oq=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&aqs=chrome..69i57.2413j0j15&sourceid=chrome&ie=UTF-8" target="blank" class="menu_contacts_pin">
                 <i class="fa-solid fa-location-dot location_pin"></i>
                 <div class="menu_contacts">
@@ -52,23 +52,23 @@
                     <li><router-link @click="active = !active" to="/price" class="menu_link">Ціни</router-link></li>
                     <li><router-link @click="active = !active" to="/service" class="menu_link">Послуги</router-link></li>
                     <li><router-link @click="active = !active" to="/make" class="menu_link">Make Up</router-link></li>
-                    <li><router-link @click="active = !active" to="/about" class="menu_link">About Dazz</router-link></li>
-                    <li><router-link @click="active = !active" to="/blog" class="menu_link">Blog</router-link></li>
+                    <li><router-link @click="active = !active" to="/about" class="menu_link">Про нас</router-link></li>
+                    <li><router-link @click="active = !active" to="/blog" class="menu_link">Блог</router-link></li>
                 </ul>
                 <div class="menu_social">
-                    <a href="#">
+                    <a href="https://www.facebook.com/dazzkiev?mibextid=LQQJ4d" target="blank">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/dazz_beautyspace/" target="blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://t.me/DAZZ_beauty_space" target="blank">
                         <i class="fa-brands fa-telegram"></i>
                     </a>
                 </div>
                 <div class="menu_contacts">
-                    <p><strong>Адрес:</strong> <a href="https://www.google.com/search?q=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&rlz=1C1IXYC_ruUA953UA956&oq=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&aqs=chrome..69i57.2413j0j15&sourceid=chrome&ie=UTF-8" target="blank"> вулиця Райдужна, 58, Київ, 02000</a></p>
-                    <p><strong>Часы работы:</strong> Пн. - Вс. 09:00-18:00</p>
+                    <p><strong>Адреса:</strong> <a href="https://www.google.com/search?q=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&rlz=1C1IXYC_ruUA953UA956&oq=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&aqs=chrome..69i57.2413j0j15&sourceid=chrome&ie=UTF-8" target="blank"> вулиця Райдужна, 58, Київ, 02000</a></p>
+                    <p><strong>Години роботи:</strong> Пн. - Вс. 09:00-21:00</p>
                     <p><strong>Телефон:</strong> <a href="tel:093 446 1590">093 446 1590</a></p>
                 </div>
             </nav>

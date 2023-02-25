@@ -64,7 +64,7 @@ export default {
                 url: require('@/assets/mainSlider/image_4.png')
             },
             {
-                title: 'Косметолог', 
+                title: 'Косметологія', 
                 desc: 'косметологія масаж епіляція', 
                 url: require('@/assets/mainSlider/img_7.jpg')
             },
@@ -113,7 +113,7 @@ export default {
     // padding-left:5%;
     // color:#aa957a;
     color: #fff;
-    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
     .title{
       font-size:2.6em;
       font-weight:bold;

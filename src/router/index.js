@@ -47,6 +47,11 @@ const routes = [
     name: 'price',
     component: () => import('@/views/PriceView')
   },
+  {
+    path: '/service',
+    name: 'service',
+    component: () => import('@/views/ServiceView')
+  },
 ]
 
 const router = createRouter({

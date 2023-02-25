@@ -10,33 +10,41 @@
                     &#8213; наші соціальні мережі &#8213;
                 </div>
                 <div class="menu_social">
-                    <a href="#">
+                    <a href="https://www.facebook.com/dazzkiev?mibextid=LQQJ4d" target="blank">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/dazz_beautyspace/" target="blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://t.me/DAZZ_beauty_space" target="blank">
                         <i class="fa-brands fa-telegram"></i>
                     </a>
                 </div>
             </div>
                 <ul class="footer_menu_list">
-                    <li><router-link @click="active = !active" to="/" class="menu_link">Головна</router-link></li>
-                    <li><router-link @click="active = !active" to="/hair" class="menu_link">Волосся</router-link></li>
-                    <li><router-link @click="active = !active" to="/nails" class="menu_link">Нігті</router-link></li>
-                    <li><router-link @click="active = !active" to="/lush" class="menu_link">ВІЇ та БРОВИ</router-link></li>
-                    <li><router-link @click="active = !active" to="/cosmetology" class="menu_link">Косметологія</router-link></li>
-                    <li><router-link @click="active = !active" to="/price" class="menu_link">Ціни</router-link></li>
-                    <li><router-link @click="active = !active" to="/service" class="menu_link">Послуги</router-link></li>
-                    <li><router-link @click="active = !active" to="/make" class="menu_link">Make Up</router-link></li>
-                    <li><router-link @click="active = !active" to="/about" class="menu_link">About Dazz</router-link></li>
-                    <li><router-link @click="active = !active" to="/blog" class="menu_link">Blog</router-link></li>
+                    <li><router-link to="/" class="menu_link">Головна</router-link></li>
+                    <li><router-link to="/hair" class="menu_link">Волосся</router-link></li>
+                    <li><router-link to="/nails" class="menu_link">Нігті</router-link></li>
+                    <li><router-link to="/lush" class="menu_link">ВІЇ та БРОВИ</router-link></li>
+                    <li><router-link to="/cosmetology" class="menu_link">Косметологія</router-link></li>
+                    <li><router-link to="/price" class="menu_link">Ціни</router-link></li>
+                    <li><router-link to="/service" class="menu_link">Послуги</router-link></li>
+                    <li><router-link to="/make" class="menu_link">Make Up</router-link></li>
+                    <li><router-link to="/about" class="menu_link">Про нас</router-link></li>
+                    <li><router-link to="/blog" class="menu_link">Блог</router-link></li>
                 </ul>
+                
             <div class="footer_copy"> 
-                 Усі права захищені салон красоты<br>
-                 Dazz - beauty space 2023.<br>
-                 &#169;Copyright, 2023. Dazz beauty space.
+                                <div class="menu_contacts">
+                        <p><strong>Адреса:</strong> <a href="https://www.google.com/search?q=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&rlz=1C1IXYC_ruUA953UA956&oq=%D1%80%D0%B0%D0%B4%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+58&aqs=chrome..69i57.2413j0j15&sourceid=chrome&ie=UTF-8" target="blank"> вулиця Райдужна, 58, Київ, 02000</a></p>
+                        <p><strong>Години роботи:</strong> Пн. - Вс. 09:00-21:00</p>
+                        <p><strong>Телефон:</strong> <a href="tel:093 446 1590">093 446 1590</a></p>
+                    </div>
+                <div class="">
+                    Усі права захищені салон красоты<br>
+                    Dazz - beauty space 2023.<br>
+                    &#169;Copyright, 2023. Dazz beauty space.
+                </div>
             </div>
         </div>
     </div>
@@ -107,7 +115,9 @@
 }
 .footer_copy{
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 5px;
     font-size: 10px;
     letter-spacing: 1.5px;
@@ -139,6 +149,18 @@
             &:hover {
                 color: #868686;
             }
+        }
+    }
+}
+.menu_contacts{
+    margin-top: 20px;
+    text-align: left;
+    color: #868686;
+    p{
+        margin-bottom: 10px;
+        a{
+            color: #868686;
+            text-decoration: underline;
         }
     }
 }

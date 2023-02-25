@@ -32,7 +32,7 @@
                 <router-link to="/cosmetology" class="services_card">
                     <img src="@/assets/cosmetology.jpg" alt="">
                     <div class="card_text">
-                        <h2>Косметолог</h2>
+                        <h2>Косметологія</h2>
                         <h4>До послуги <i class="fa-solid fa-arrow-right"></i></h4>
                     </div>
                 </router-link>
@@ -81,7 +81,7 @@
     bottom: 20px;
     left: 20px;
     text-shadow: 1px 1px 15px rgb(0, 0, 0);
-    @media (max-width: 550px) {
+    @media (max-width: 900px) {
         h2{
             font-size: 25px;
         }
