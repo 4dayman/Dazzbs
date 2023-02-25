@@ -20,17 +20,9 @@ export default {
 <style lang="scss" scoped>
 .hair {
     position: relative;
-    max-width: 1230px;
     margin: 0 auto;
     padding-top: 80px;
 
-    h2 {
-        padding-top: 40px;
-    }
-
-    @media (max-width: 360px) {
-        padding-top: 55px;
-    }
 }
 
 .hair_desc {

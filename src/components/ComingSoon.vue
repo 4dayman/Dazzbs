@@ -16,7 +16,8 @@
 }
 
 .comihg_soon {
-    max-width: 1230px;
+    width: 100%;
+    // max-width: 1230px;
     // padding: 0 20px;
     display: grid;
     margin: 0 auto;

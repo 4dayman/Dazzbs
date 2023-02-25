@@ -66,7 +66,7 @@ export default {
             {
                 title: 'Косметологія', 
                 desc: 'косметологія масаж епіляція', 
-                url: require('@/assets/mainSlider/image_3.jpg')
+                url: require('@/assets/mainSlider/image_3.png')
             },
         ]
       }
