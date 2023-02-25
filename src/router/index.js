@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
 
 const routes = [
   {
@@ -10,16 +10,51 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    component: () => import('@/views/AboutView')
+  },
+  {
+    path: '/hair',
+    name: 'hair',
+    component: () => import('@/views/HairView')
+  },
+  {
+    path: '/nails',
+    name: 'nails',
+    component: () => import('@/views/NailsView')
+  },
+  {
+    path: '/lush',
+    name: 'lush',
+    component: () => import('@/views/LushView')
+  },
+  {
+    path: '/make',
+    name: 'make',
+    component: () => import('@/views/MakeView')
+  },
+  {
+    path: '/cosmetology',
+    name: 'cosmetology',
+    component: () => import('@/views/CosmetologyView')
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('@/views/BlogView')
+  },
+  {
+    path: '/price',
+    name: 'price',
+    component: () => import('@/views/PriceView')
+  },
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    return to = top
+  }
 })
 
 export default router
