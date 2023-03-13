@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <MainSlider/>
-    <marquee class="offer" behavior="scroll" direction="left" loop>
+    <!-- <marquee class="offer" behavior="scroll" direction="left" loop>
         <a href="https://www.instagram.com/stories/dazz_beautyspace/" target="_blank">сьогоднішні пропозиції в <span>instagram</span></a>
-    </marquee>
+    </marquee> -->
     <MainDesc/>
     <div class="services">
       <h3>МИ ПРОПОНУЄМО</h3>

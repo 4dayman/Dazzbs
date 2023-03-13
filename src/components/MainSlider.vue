@@ -50,33 +50,33 @@ export default {
                 title: 'Перукарські послуги', 
                 desc: 'стрижки укладання зачіски',
                 desc2: 'всі види фарбувань догляд та лікування для волосся',
-                url: require('@/assets/mainSlider/dazz_2.png')
+                url: require('@/assets/mainSlider/dazz_2.jpeg')
             },
             {
                 // title: 'nails', 
                 title: 'Манікюр', 
                 desc: 'манікюр педикюр подологія', 
-                url: require('@/assets/mainSlider/dazz_3.png')
+                url: require('@/assets/mainSlider/dazz_3.jpeg')
             },
             {
                 title: 'ВІЇ та БРОВИ', 
                 desc: 'макіяж брови вії', 
-                url: require('@/assets/mainSlider/dazz_4.png')
+                url: require('@/assets/mainSlider/dazz_4.jpeg')
             },
             {
                 title: 'Косметологія', 
                 desc: 'косметологія масаж епіляція', 
-                url: require('@/assets/mainSlider/dazz_5.png')
+                url: require('@/assets/mainSlider/dazz_5.jpeg')
             },
             {
                 title: 'Подарункові сертифікати', 
                 desc: '', 
-                url: require('@/assets/mainSlider/dazz_6.png')
+                url: require('@/assets/mainSlider/dazz_6.jpeg')
             },
             {
                 title: '', 
                 desc: '', 
-                url: require('@/assets/mainSlider/dazz_7.png')
+                url: require('@/assets/mainSlider/dazz_7.jpeg')
             },
         ]
       }
