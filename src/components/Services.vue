@@ -2,21 +2,21 @@
     <div class="services_wrapper">
             <div class="services_cards">
                 <router-link  to="/hair" class="services_card">
-                    <img src="@/assets/any.png" alt="">
+                    <img src="@/assets/hair_1.jpg" alt="">
                     <div class="card_text">
                         <h2>Волосся</h2>
                         <h4>До послуги <i class="fa-solid fa-arrow-right"></i></h4>
                     </div>
                 </router-link>
                 <router-link to="/nails" class="services_card">
-                    <img src="@/assets/nails_1.jpg" alt="">
+                    <img src="@/assets/nails_2.jpg" alt="">
                     <div class="card_text">
                         <h2>НІГТІ</h2>
                         <h4>До послуги <i class="fa-solid fa-arrow-right"></i></h4>
                     </div>
                 </router-link>
                 <router-link to="/lush" class="services_card">
-                    <img src="@/assets/lush_brow.png" alt="">
+                    <img src="@/assets/lush_brow_1.png" alt="">
                     <div class="card_text">
                         <h2>ВІЇ та БРОВИ</h2>
                         <h4>До послуги <i class="fa-solid fa-arrow-right"></i></h4>

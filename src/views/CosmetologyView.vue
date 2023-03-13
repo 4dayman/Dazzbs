@@ -9,7 +9,7 @@
     <div class="hair_desc">
       <h5>Ідеальне рішення для тих, хто хоче виглядати стильно</h5>
       <div class="hair_desc_img">
-          <img src="@/assets/mainSlider/img_4.jpg" alt="">
+          <img src="@/assets/bg_cosm.jpg" alt="">
       </div>
     </div>
     <Price
@@ -108,15 +108,16 @@ export default {
 }
 .hair_desc_img{
     height: 500px;
-        @media (max-width: 560px) {
-          display: none;
+ @media (max-width: 768px) {
+            height: 300px;
+        //   display: none;
         }
     img{
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
-}
+        opacity: 0.6;
+    }}
 .call_btn{
   z-index: 1;
   position: fixed;

@@ -9,7 +9,7 @@
     <div class="hair_desc">
       <h5>Доглянуті руки та свіжий манікюр — це вже невід’ємна частина зовнішнього вигляду. У Dazz ми пропонуємо послуги обрізного і необрізного манікюру, покриття гель-лаком або еко-покриття, а також альтернативний догляд: бразильський манікюр і японське покриття P. Shine.</h5>
       <div class="hair_desc_img">
-          <img src="@/assets/bg_nails.jpg" alt="">
+          <img src="@/assets/bg_nails_1.jpg" alt="">
       </div>
     </div>
     <Price
@@ -67,7 +67,7 @@ export default {
           {id:4, url: require('@/assets/nailSlider/img_4.jpg')},
           {id:5, url: require('@/assets/nailSlider/img_5.jpg')},
           {id:6, url: require('@/assets/nailSlider/img_6.jpg')},
-          {id:7, url: require('@/assets/nailSlider/img_7.jpg')},
+          {id:7, url: require('@/assets/nailSlider/img_7.1.jpg')},
         ],
         services: Manicur,
         services2: Pedicur,
@@ -88,7 +88,7 @@ export default {
     margin: 0 auto;
     padding-top: 80px;
     h2{
-      padding-top: 40px;
+      padding: 40px 20px 0px 20px;
     }
     @media (max-width: 360px) {
       padding-top: 55px;

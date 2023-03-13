@@ -9,7 +9,7 @@
     <div class="hair_desc">
       <h5>Догляд за ...</h5>
       <div class="hair_desc_img">
-          <img src="@/assets/bg_lush.jpg" alt="">
+          <img src="@/assets/bg_lush_1.jpg" alt="">
       </div>
     </div>
     <Price

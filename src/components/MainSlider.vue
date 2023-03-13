@@ -44,29 +44,44 @@ export default {
                 title: '', 
                 desc: '', 
                 url: require('@/assets/mainSlider/image_1.png')
+                // url: require('@/assets/mainSlider/dazz_1.png')
             },
             {
                 // title: 'hair', 
-                title: 'Волосся', 
+                title: 'Перукарські послуги', 
                 desc: 'стрижки укладання зачіски',
                 desc2: 'всі види фарбувань догляд та лікування для волосся',
-                url: require('@/assets/mainSlider/image_2.png')
+                url: require('@/assets/mainSlider/dazz_2.png')
+                // url: require('@/assets/mainSlider/image_2.png')
             },
             {
                 // title: 'nails', 
-                title: 'НІГТІ', 
+                title: 'Манікюр', 
                 desc: 'манікюр педикюр подологія', 
-                url: require('@/assets/mainSlider/image_3.png')
+                url: require('@/assets/mainSlider/dazz_3.png')
+                // url: require('@/assets/mainSlider/image_3.png')
             },
             {
                 title: 'ВІЇ та БРОВИ', 
                 desc: 'макіяж брови вії', 
-                url: require('@/assets/mainSlider/image_4.png')
+                url: require('@/assets/mainSlider/dazz_4.png')
+                // url: require('@/assets/mainSlider/image_4.png')
             },
             {
                 title: 'Косметологія', 
                 desc: 'косметологія масаж епіляція', 
-                url: require('@/assets/mainSlider/image_3.png')
+                url: require('@/assets/mainSlider/dazz_5.png')
+                // url: require('@/assets/mainSlider/image_3.png')
+            },
+            {
+                title: 'Подарункові сертифікати', 
+                desc: '', 
+                url: require('@/assets/mainSlider/dazz_6.png')
+            },
+            {
+                title: '', 
+                desc: '', 
+                url: require('@/assets/mainSlider/dazz_7.png')
             },
         ]
       }
@@ -98,16 +113,17 @@ export default {
 }
 .slide-bgimg{
     margin: 0 auto;
-    height: 80vh;
+    height: 70vh;
     img{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        // object-fit: scale-down;
     }
 }
 .content{
     position:absolute;
-    top:40%;
+    top:30%;
     left:10%;
     // width:50%;
     // padding-left:5%;
@@ -115,6 +131,7 @@ export default {
     color: #fff;
     text-shadow: 1px 1px 20px rgb(0, 0, 0);
     .title{
+
       font-size:2.6em;
       font-weight:bold;
       margin-bottom:30px;
